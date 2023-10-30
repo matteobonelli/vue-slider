@@ -45,9 +45,13 @@ createApp({
             } else {
                 this.counter -= 1
             }
-        }
+        },
+        
     },
     created(){
         
+    },
+    mounted(){
+        setInterval(this.arrowDown, 3000)
     }
 }).mount('#app')
