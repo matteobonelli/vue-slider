@@ -45,7 +45,7 @@ createApp({
             } else {
                 this.counter -= 1
             }
-        },
+        }
         
     },
     created(){
